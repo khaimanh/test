@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="kiero">
+      <UniqueIdentifier>{c914abae-6128-4a2a-8821-07a38f656930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{3ba57e14-8ac2-485a-b12c-f06690c43d6e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="kiero\minhook\src\buffer.c">
+      <Filter>kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero\minhook\src\hde\hde32.c">
+      <Filter>kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero\minhook\src\hde\hde64.c">
+      <Filter>kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero\minhook\src\hook.c">
+      <Filter>kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero\kiero.cpp">
+      <Filter>kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero\minhook\src\trampoline.c">
+      <Filter>kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="cfx\resource_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfx\component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfx\resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="icons\font_awesome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfx\dumper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfx\menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfx\options\nigga.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfx\overlay\component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfx\overlay\dumper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfx\overlay\resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfx\overlay\resource_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="kiero\minhook\dll_resources\MinHook.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kiero\minhook\src\buffer.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\hde\hde32.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\hde\hde64.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\kiero.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\include\MinHook.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\hde\pstdint.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\hde\table32.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\hde\table64.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\trampoline.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\resource_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\component.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\netlibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\omptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\ref_container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\compat\ppl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_aggregator_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_concurrent_queue_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_concurrent_unordered_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_flow_graph_async_msg_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_flow_graph_body_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_flow_graph_cache_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_flow_graph_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_flow_graph_indexer_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_flow_graph_item_buffer_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_flow_graph_join_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_flow_graph_node_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_flow_graph_streaming_node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_flow_graph_tagged_buffer_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_flow_graph_trace_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_flow_graph_types_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_mutex_padding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_range_iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_tbb_hash_compare_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_tbb_strings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_tbb_trace_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_tbb_windef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_template_helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_x86_eliding_mutex_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\internal\_x86_rtm_rw_mutex_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\gcc_arm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\gcc_generic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\gcc_ia32_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\gcc_itsx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\ibm_aix51.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\icc_generic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\linux_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\linux_ia32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\linux_ia64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\linux_intel64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\mac_ppc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\macos_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\mic_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\msvc_armv7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\msvc_ia32_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\sunos_sparc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\windows_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\windows_ia32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\machine\windows_intel64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\aggregator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\aligned_space.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\atomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\blocked_range.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\blocked_range2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\blocked_range3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\blocked_rangeNd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\cache_aligned_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\combinable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\concurrent_hash_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\concurrent_lru_cache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\concurrent_priority_queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\concurrent_queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\concurrent_unordered_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\concurrent_unordered_set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\concurrent_vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\critical_section.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\enumerable_thread_specific.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\flow_graph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\flow_graph_abstractions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\flow_graph_opencl_node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\gfx_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\global_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\iterators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\memory_pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\null_mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\null_rw_mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\parallel_do.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\parallel_for.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\parallel_for_each.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\parallel_invoke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\parallel_reduce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\parallel_scan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\parallel_sort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\parallel_while.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\partitioner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\pipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\queuing_mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\queuing_rw_mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\reader_writer_lock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\recursive_mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\runtime_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\scalable_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\spin_mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\spin_rw_mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\task.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\task_arena.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\task_group.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\task_scheduler_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\task_scheduler_observer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\tbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\tbb_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\tbb_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\tbb_disable_exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\tbb_exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\tbb_machine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\tbb_profiling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\tbb_stddef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\tbb_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\tbbmalloc_proxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tbb\tick_count.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xorstr\xorstr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="icons\font_awesome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextEditor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="icons\font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\dumper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="icons\icon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\bypass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\menu.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\offsets\sdk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\overlay\component.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\overlay\dumper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\overlay\event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\overlay\netlibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\overlay\omptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\overlay\ref_container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\overlay\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfx\overlay\resource_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kiero\minhook\dll_resources\MinHook.def">
+      <Filter>kiero</Filter>
+    </None>
+    <None Include="include\tbb\index.html" />
+  </ItemGroup>
+</Project>
